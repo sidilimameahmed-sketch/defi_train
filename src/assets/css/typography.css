@@ -1,0 +1,100 @@
+/**
+ * Typographie & Styles de Texte
+ * Projet: Visualisez l'OpenData au clair de lune
+ */
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-faint {
+  color: var(--text-faint);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.badge-chu {
+  background: rgba(57, 255, 20, 0.15);
+  color: var(--neon-chu);
+  border: 1px solid rgba(57, 255, 20, 0.4);
+}
+
+.badge-chrs {
+  background: rgba(255, 230, 0, 0.15);
+  color: var(--neon-chrs);
+  border: 1px solid rgba(255, 230, 0, 0.4);
+}
+
+.badge-ssp {
+  background: rgba(0, 240, 255, 0.15);
+  color: var(--neon-ssp);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+}
+
+.badge-casvp {
+  background: rgba(217, 70, 239, 0.15);
+  color: var(--neon-casvp);
+  border: 1px solid rgba(217, 70, 239, 0.4);
+}
+
+.badge-night {
+  background: rgba(99, 102, 241, 0.2);
+  color: #A5B4FC;
+  border: 1px solid rgba(99, 102, 241, 0.4);
+}
+
+.glow-text-moon {
+  text-shadow: 0 0 10px rgba(226, 232, 240, 0.5);
+}
+
+.glow-text-chu {
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.6);
+}
+
+.glow-text-ssp {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.6);
+}

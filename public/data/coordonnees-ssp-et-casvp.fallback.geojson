@@ -1,0 +1,362 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.368277,
+          48.870995
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 10",
+        "ndeg_rue": "23 bis Rue Bichat",
+        "code_postal": "75010",
+        "telephone": "01 53 19 26 26",
+        "adresse_mail_generique": "maisondessolidarites10@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Goncourt (M 11), République (M 3, 5, 8, 9 et 11)",
+        "ligne_de_bus_tramway_arret": "46, 75 - Arrêts Alibert",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340451,
+          48.866835
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS Centre",
+        "ndeg_rue": "8 rue de la Banque",
+        "code_postal": "75002",
+        "telephone": "01 87 76 22 02",
+        "adresse_mail_generique": "maisondessolidaritescentre@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Bourse (M 3)",
+        "ligne_de_bus_tramway_arret": "29 - Arrêt Mairie du 2ème/Victoires",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.355974,
+          48.832565
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 13",
+        "ndeg_rue": "146 boulevard de l'Hôpital",
+        "code_postal": "75013",
+        "telephone": "01 87 76 13 13",
+        "adresse_mail_generique": "maisondessolidarites13@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Place d'Italie (M 5, 6 et 7)",
+        "ligne_de_bus_tramway_arret": "27, 47, 57, 59, 61, 64, 67, 83 - Arrêt Place d'Italie",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.320044,
+          48.856866
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 7",
+        "ndeg_rue": "116 rue de Grenelle",
+        "code_postal": "75007",
+        "telephone": "01 87 76 20 77",
+        "adresse_mail_generique": "maisondessolidarites7@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Solférino (M 12), Varenne (M 13)",
+        "ligne_de_bus_tramway_arret": "69 - Arrêt Grenelle-Bellechasse",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.38431,
+          48.84279
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 12",
+        "ndeg_rue": "108 avenue Daumesnil",
+        "code_postal": "75012",
+        "telephone": "01 44 68 62 00",
+        "adresse_mail_generique": "maisondessolidarites12@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Montgallet (M 8), Bercy (M 6, M 14)",
+        "ligne_de_bus_tramway_arret": "29, 215 -Arrêt Charles Bossut",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.317486,
+          48.877751
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 8",
+        "ndeg_rue": "3 rue de Lisbonne",
+        "code_postal": "75008",
+        "telephone": "01 87 76 21 08",
+        "adresse_mail_generique": "maisondessolidarites8@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Europe (M 3), Saint-Augustin (M 9), Saint Lazare (M 14)",
+        "ligne_de_bus_tramway_arret": "20, 93 - Arrêt Lisbonne",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.276653,
+          48.863941
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 16",
+        "ndeg_rue": "71 avenue Henri Martin",
+        "code_postal": "75016",
+        "telephone": "01 87 76 10 16",
+        "adresse_mail_generique": "maisondessolidarites16@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Rue de la Pompe (M 9)\nAvenue Henri Martin (rer C)",
+        "ligne_de_bus_tramway_arret": "52, 63 - Arrêt Rue de la Pompe",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.321834,
+          48.884494
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 17",
+        "ndeg_rue": "16-20 rue des Batignolles",
+        "code_postal": "75017",
+        "telephone": "01 87 76 15 17",
+        "adresse_mail_generique": "maisondessolidarites17@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Rome (M 2), Place de Clichy (M 2 et 13), La Fourche (M 13)",
+        "ligne_de_bus_tramway_arret": "66 - Arrêt Mairie du 17ème",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.328213,
+          48.831181
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 14",
+        "ndeg_rue": "14 rue Brézin",
+        "code_postal": "75014",
+        "telephone": "01 53 90 32 00",
+        "adresse_mail_generique": "maisondessolidarites14@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Mouton Duvernet (M 4), Denfert-Rochereau (rer B)",
+        "ligne_de_bus_tramway_arret": "38, 68 - Arrêt Mouton-Duvernet",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.343806,
+          48.892504
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 18",
+        "ndeg_rue": "115 bis rue Ordener",
+        "code_postal": "75018",
+        "telephone": "01 53 09 10 10",
+        "adresse_mail_generique": "maisondessolidarites18@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Jules Joffrin (M 12), Simplon (M 4)",
+        "ligne_de_bus_tramway_arret": "31, 40, 60, 80, 85 - Arrêt Jules Joffrin",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340481,
+          48.872592
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 9",
+        "ndeg_rue": "6 rue Drouot",
+        "code_postal": "75009",
+        "telephone": "01 87 76 89 09",
+        "adresse_mail_generique": "maisondessolidarites9@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Richelieu-Drouot (M 8 et 9)",
+        "ligne_de_bus_tramway_arret": "20, 32, 39, 45, 74, 85 - Arrêt Richelieu Drouot",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.344581,
+          48.846192
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 5",
+        "ndeg_rue": "21 place du Panthéon",
+        "code_postal": "75005",
+        "telephone": "01 87 76 85 05",
+        "adresse_mail_generique": "maisondessolidarites5@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Cardinal Lemoine (M 10), Place Monge (M 7)\nLuxembourg (rer B)",
+        "ligne_de_bus_tramway_arret": "24, 75, 84, 89 - Arrêt Panthéon",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.383543,
+          48.883808
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 19",
+        "ndeg_rue": "17 rue Meynadier",
+        "code_postal": "75019",
+        "telephone": "01 40 40 82 00",
+        "adresse_mail_generique": "maisondessolidarites19@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Laumière (M 5)",
+        "ligne_de_bus_tramway_arret": "48, 60, 75 - Arrêt Armand Carrel-Mairie du 19ème",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332611,
+          48.850537
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 6",
+        "ndeg_rue": "78 rue Bonaparte",
+        "code_postal": "75006",
+        "telephone": "01 87 76 20 06",
+        "adresse_mail_generique": "maisondessolidarites6@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Saint Sulpice (M 4)",
+        "ligne_de_bus_tramway_arret": "39, 63, 70, 84, 86, 95, 96 - Arrêt Saint-Sulpice",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.378031,
+          48.854265
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 11",
+        "ndeg_rue": "130 avenue Ledru Rollin",
+        "code_postal": "75011",
+        "telephone": "01 53 36 51 00",
+        "adresse_mail_generique": "maisondessolidarites11@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Ledru Rollin (M 8), Voltaire (M 9)",
+        "ligne_de_bus_tramway_arret": "61, 76 - Arrêt Charonne-Keller",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.300714,
+          48.840634
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 15",
+        "ndeg_rue": "3 place Adolphe Chérioux",
+        "code_postal": "75015",
+        "telephone": "01 87 76 90 00",
+        "adresse_mail_generique": "maisondessolidarites15@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Vaugirard (M 12)",
+        "ligne_de_bus_tramway_arret": "39, 70, 80, 88 - Arrêt Vaugirard",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.406681,
+          48.8697
+        ]
+      },
+      "properties": {
+        "nom_de_l_etablissement": "MdS 20",
+        "ndeg_rue": "62-66 rue du Surmelin",
+        "code_postal": "75020",
+        "telephone": "01 40 31 35 00",
+        "adresse_mail_generique": "maisondessolidarites20@paris.fr",
+        "station_de_metro_rer_la_plus_proche": "Saint Fargeau (M 3bis)",
+        "ligne_de_bus_tramway_arret": "61 - Arrêt Surmelin - Darcy",
+        "horaires": "8h30 - 17 h",
+        "accessibilite": "Accessible aux PMR"
+      }
+    }
+  ]
+}

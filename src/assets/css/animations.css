@@ -1,0 +1,111 @@
+/**
+ * Animations Lumineuses & Effets Stellaires
+ * Projet: Visualisez l'OpenData au clair de lune
+ */
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.4), 0 0 20px rgba(57, 255, 20, 0.2);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 16px rgba(57, 255, 20, 0.75), 0 0 32px rgba(57, 255, 20, 0.4);
+  }
+}
+
+@keyframes pulseHeartbeat {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 4px rgba(255, 230, 0, 0.4));
+  }
+  14% {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 12px rgba(255, 230, 0, 0.8));
+  }
+  28% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 4px rgba(255, 230, 0, 0.4));
+  }
+  42% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(255, 230, 0, 0.6));
+  }
+  70% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 4px rgba(255, 230, 0, 0.4));
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes moonRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Classes utilitaires d'animation */
+.animate-fade-in {
+  animation: fadeIn var(--transition-normal) forwards ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp var(--transition-smooth) forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s infinite ease-in-out;
+}
+
+.animate-heartbeat {
+  animation: pulseHeartbeat 2.2s infinite ease-in-out;
+}
+
+/* Squelette de chargement sombre (Skeleton loader) */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(255, 255, 255, 0.08) 37%,
+    rgba(255, 255, 255, 0.03) 63%
+  );
+  background-size: 400% 100%;
+  animation: shimmer 1.6s infinite ease-in-out;
+  border-radius: var(--radius-sm);
+}

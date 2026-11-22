@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.394079,
+          48.769465
+        ]
+      },
+      "properties": {
+        "type": "CHU",
+        "nom": "Les Baudemons",
+        "adresse": "30, rue des Baudemons",
+        "code_postal": 94320,
+        "ville": "Thiais",
+        "telephone": "01.55.53.16.10",
+        "precisions": "Hommes et femmes  isolés de plus de 50 ans."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.353209,
+          48.819423
+        ]
+      },
+      "properties": {
+        "type": "CHRS",
+        "nom": "Poterne des Peupliers",
+        "adresse": "8-14, rue de la Poterne des Peupliers",
+        "code_postal": 75013,
+        "ville": "Paris",
+        "telephone": "01.45.81.90.00",
+        "precisions": "Hommes et femmes isolés de 25 à 65 ans. Couples."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.369066,
+          48.826222
+        ]
+      },
+      "properties": {
+        "type": "CHRS",
+        "nom": "Relais des carrières",
+        "adresse": "71, rue du Château des Rentiers",
+        "code_postal": 75013,
+        "ville": "Paris",
+        "telephone": "01.42.16.76.76",
+        "precisions": "Hommes et femmes isolés de 25 à 65 ans."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.378039,
+          48.889674
+        ]
+      },
+      "properties": {
+        "type": "CHU",
+        "nom": "Crimée",
+        "adresse": "166, rue de Crimée",
+        "code_postal": 75019,
+        "ville": "Paris",
+        "telephone": "01.53.26.53.26",
+        "precisions": "Familles."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.364797,
+          48.828012
+        ]
+      },
+      "properties": {
+        "type": "CHU",
+        "nom": "Baudricourt",
+        "adresse": "15, rue Baudricourt",
+        "code_postal": 75013,
+        "ville": "Paris",
+        "telephone": "01.45.83.32.60",
+        "precisions": "Hommes et femmes isolés de 25 à 65 ans."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.402218,
+          48.861052
+        ]
+      },
+      "properties": {
+        "type": "CHRS-CHU",
+        "nom": "Stendhal",
+        "adresse": "5 quater, rue Stendhal",
+        "code_postal": 75020,
+        "ville": "Paris",
+        "telephone": "01.46.62.57.57",
+        "precisions": "Hommes et  femmes de 18 à 27 ans. Couples."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.384943,
+          48.876763
+        ]
+      },
+      "properties": {
+        "type": "CHRS",
+        "nom": "Pauline Roland",
+        "adresse": "35-37, rue Fessart",
+        "code_postal": 75019,
+        "ville": "Paris",
+        "telephone": "01.42.03.26.28",
+        "precisions": "Femmes seules ou femmes avec enfants."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.397565,
+          48.852109
+        ]
+      },
+      "properties": {
+        "type": "CHRS",
+        "nom": "Charonne",
+        "adresse": "43-45, boulevard de Charonne",
+        "code_postal": 75011,
+        "ville": "Paris",
+        "telephone": "01.55.25.57.57",
+        "precisions": "Familles monoparentales."
+      }
+    }
+  ]
+}

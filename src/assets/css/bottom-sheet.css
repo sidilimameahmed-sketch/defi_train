@@ -1,0 +1,99 @@
+/**
+ * Styles du Panneau Coulissant « Bottom Sheet » (F4)
+ * Projet: Visualisez l'OpenData au clair de lune
+ */
+
+#bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-bottom-sheet);
+  background: var(--bg-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-top: var(--glass-border);
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.6);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  transition: transform var(--transition-smooth), opacity var(--transition-normal);
+  transform: translateY(100%);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#bottom-sheet.is-visible {
+  transform: translateY(0);
+}
+
+.bottom-sheet-handle-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 6px 0;
+  cursor: grab;
+  touch-action: none;
+}
+
+.bottom-sheet-drag-pill {
+  width: 44px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-full);
+}
+
+.bottom-sheet-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 1.25rem 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.bottom-sheet-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.bottom-sheet-close-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--text-primary);
+}
+
+.bottom-sheet-content {
+  padding: 1.25rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Version Desktop : Panneau latéral flottant */
+@media (min-width: 768px) {
+  #bottom-sheet {
+    left: auto;
+    right: 24px;
+    bottom: 24px;
+    width: 420px;
+    border-radius: var(--radius-lg);
+    border: var(--glass-border);
+    max-height: calc(100vh - 180px);
+    transform: translateY(120%);
+  }
+
+  #bottom-sheet.is-visible {
+    transform: translateY(0);
+  }
+
+  .bottom-sheet-drag-pill {
+    display: none;
+  }
+}

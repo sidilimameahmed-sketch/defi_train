@@ -1,0 +1,36 @@
+{
+  "name": "opendata-clair-de-lune",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visualisez l'OpenData au clair de lune - Défi Apside OpenData & Nuit",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:sync": "node scripts/fetch-fallback-data.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:data": "vitest run src/services"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "jsdom": "^28.1.0",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  },
+  "keywords": [
+    "opendata",
+    "paris",
+    "apside",
+    "leaflet",
+    "chartjs",
+    "nuit",
+    "solidarite"
+  ],
+  "author": "Equipe Défi Apside",
+  "license": "MIT"
+}
